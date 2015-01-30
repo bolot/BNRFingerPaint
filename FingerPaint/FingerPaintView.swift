@@ -55,4 +55,9 @@ class FingerPaintView: UIView {
         }
         self.setNeedsDisplay()
     }
+
+    func resetView() {
+        paths = [UIBezierPath]()
+        pathsInProgress = [UITouch:UIBezierPath]()
+    }
 }

@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func resetView(sender: AnyObject) {
+        let fingerPaintView = view as FingerPaintView
+        fingerPaintView.resetView()
+    }
 
 }
 
