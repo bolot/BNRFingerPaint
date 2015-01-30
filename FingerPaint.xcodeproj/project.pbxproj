@@ -13,6 +13,7 @@
 		DA5454101A7C08C900CE7C20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA54540F1A7C08C900CE7C20 /* Images.xcassets */; };
 		DA5454131A7C08C900CE7C20 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA5454111A7C08C900CE7C20 /* LaunchScreen.xib */; };
 		DA54541F1A7C08CA00CE7C20 /* FingerPaintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA54541E1A7C08CA00CE7C20 /* FingerPaintTests.swift */; };
+		DA5454291A7C08DF00CE7C20 /* FingerPaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5454281A7C08DF00CE7C20 /* FingerPaintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DA5454181A7C08C900CE7C20 /* FingerPaintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA54541D1A7C08CA00CE7C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA54541E1A7C08CA00CE7C20 /* FingerPaintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerPaintTests.swift; sourceTree = "<group>"; };
+		DA5454281A7C08DF00CE7C20 /* FingerPaintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FingerPaintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				DA5454081A7C08C900CE7C20 /* AppDelegate.swift */,
 				DA54540A1A7C08C900CE7C20 /* ViewController.swift */,
 				DA54540C1A7C08C900CE7C20 /* Main.storyboard */,
+				DA5454281A7C08DF00CE7C20 /* FingerPaintView.swift */,
 				DA54540F1A7C08C900CE7C20 /* Images.xcassets */,
 				DA5454111A7C08C900CE7C20 /* LaunchScreen.xib */,
 				DA5454061A7C08C900CE7C20 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5454291A7C08DF00CE7C20 /* FingerPaintView.swift in Sources */,
 				DA54540B1A7C08C900CE7C20 /* ViewController.swift in Sources */,
 				DA5454091A7C08C900CE7C20 /* AppDelegate.swift in Sources */,
 			);
